@@ -130,9 +130,6 @@ a:hover {
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
@@ -147,9 +144,6 @@ a:hover {
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -228,9 +222,6 @@ a:hover {
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
@@ -246,9 +237,6 @@ a:hover {
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
@@ -517,18 +505,22 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    color: white;
+    /*opacity: 0;
     z-index: 500;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;*/
 }
 
-.scrollToTop span {
+/*.scrollToTop span {*/
+    span .fas.fa-chevron-up {
+    width: 12px;
+    color: green;
     margin-top: 6px;
 }
 
 .showScrollTop {
-    font-size: 14px;
-    opacity: 1;
+   /* font-size: 14px;
+    opacity: 1;*/
 }
 
 a[data-lightbox] {
@@ -643,9 +635,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 label,
 .btn,
@@ -678,7 +667,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -732,11 +721,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
+h1, .black {
     color: #333333!important;
 }
 
@@ -763,7 +748,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.88);
+    background-color: rgba(70, 90, 60, 0.70);
     padding: 40px 40px 40px 40px;
 }
 
@@ -781,11 +766,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FC9E55;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FC9E55 !important;
 }
 
 .btn-atomic-tangerine {
@@ -907,9 +892,6 @@ h4 {
     h1,
     h2,
     h3,
-    h4,
-    h5,
-    h6,
     p,
     #disqus_thread {
         padding-left: 10px!important;
